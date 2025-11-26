@@ -14,7 +14,6 @@ cmake -B build
 cmake --install build
 ```
 ```
-```
 
 Then, on your CMakeLists.txt
 
