@@ -34,7 +34,8 @@ add_subdirectory(vendor/doptions)
 target_link_libraries(mi_app PRIVATE doptions::doptions)
 ```
 
-> [!NOTE] Replace "vendor" with your third-party dependencies dir.
+> [!NOTE] 
+> Replace "vendor" with your third-party dependencies dir.
 
 ### FetchContent
 
