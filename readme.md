@@ -13,7 +13,6 @@ cd doptions
 cmake -B build
 cmake --install build
 ```
-```
 
 Then, on your CMakeLists.txt
 
@@ -35,7 +34,7 @@ add_subdirectory(vendor/doptions)
 target_link_libraries(mi_app PRIVATE doptions::doptions)
 ```
 
->[!NOTE] Replace "vendor" with your third-party dependencies dir.
+> [!NOTE] Replace "vendor" with your third-party dependencies dir.
 
 ### FetchContent
 
