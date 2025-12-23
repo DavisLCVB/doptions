@@ -2,3 +2,4 @@ build
 CLAUDE.md
 build.sh
 exec.sh
+examples/compile-time-builder
