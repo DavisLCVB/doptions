@@ -25,6 +25,7 @@ if(BUILD_EXAMPLES)
     basic-example
     extended-example
     complex-example
+    compile-time-builder-example
   )
   foreach(example ${EXAMPLES})
     add_executable(${example} examples/${example}.cpp)
